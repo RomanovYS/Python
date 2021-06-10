@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>i-Shop</title>
+    <link rel="stylesheet" href="shop.css">
+    <h2>Список товаров</h2>
+</head>
+
+<body>
+
+    <div id="goodList">
+    </div>
+    <div id="basketBlock">
+    </div>
+
+
+    <div id="popup">
+        <h2>Корзина</h2>
+        <button id="closePopupBtn">&#x2715;</button>
+        <br>
+        <div class='cartSection, good' id='sect1'>
+            <h3>Состав корзиины</h3>
+            <textarea id='text1' name="cartList" cols="60" rows="5"></textarea>
+        </div>
+        <div class="cartSection, good" id='sect2'>
+            <h3>Адрес доставки</h3>
+            <textarea id='text2' name="addres" cols="60" rows="5"></textarea>
+        </div>
+        <div class="cartSection, good" id='sect3'>
+            <h3>Комментрарий</h3>
+            <textarea id='text3' name="comment" cols="60" rows="5"></textarea>
+        </div>
+        <div id="orderSend">
+            <h2>Заказ отправлен</h2>
+        </div>
+        <div id="btnSect" class="good">
+            <button id="nextSectionBtn">Далее</button>
+            <button id="clearBtn">Очистить</button>
+            <button id="orderBtn">Заказать</button>
+        </div>
+    </div>
+
+    <script src="shop.js"></script>
+</body>
+
+</html>

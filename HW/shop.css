@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 700px;
+    min-height: 500px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(148, 97, 231);
+}
+
+h3 {
+    color: rgb(47, 0, 255);
+}
+
+button {
+    height: 25px;
+    width: 60px;
+}
+
+.good {
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    border: 1px solid rgb(140, 90, 255);
+    align-items: center;
+    padding: 10px 10px;
+    margin: 5px auto ;
+}
+
+#goodList {
+    height: 0px;
+    width: 650px;
+    margin: 5px auto ;
+}
+
+#basketBlock
+{   height: 100px;
+    width: 400px;
+    margin: 5px auto ;
+}
+
+.price {
+    display: flexbox;
+    width: 70px;
+    color: brown;
+    font-size: large;
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+}
+
+.name {
+    width: 150px;
+    padding-left: 10px;
+}
+
+.desc {
+    width: 200px;
+    padding-left: 10px;
+}
+
+.basketDesc {
+    width: 200px;
+    padding-left: 10px;
+}
+
+.btn {
+    display: flex;
+    width: 80px;
+    justify-content: right;
+}
+
+.basketImg {
+    width: 100px;
+    height: 100px;
+}
+
+#popup {
+    width: 700px;
+    height: 500px;
+    background-color: rgb(233, 233, 233);
+    opacity: 0.95;
+    border: 1px solid #999;
+    border-radius: 6px;
+    position: fixed;
+    top: 100px;
+    left: calc(50% - 350px);
+    display: none;
+    padding: 15px;
+}
+
+#closePopupBtn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: transparent;
+    border: 1px solid #999;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
